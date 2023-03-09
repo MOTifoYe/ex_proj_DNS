@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>DNS</title>
+  </head>
+  <body> 
+    <!-- Форма фильтрации -->
+    <form name="form_filter" class="form_filter">
+
+      <div class="filters_content">
+
+        <div class="filters_card">
+          <div class="filters_head">Периферия</div>
+          <label>
+            <input type="radio" name="filter_type" value="mouse">Мышь
+          </label>
+          <label>
+            <input type="radio" name="filter_type" value="keyboard">Клавиатура
+          </label>
+        </div>
+        
+        <div class="filters_card">
+          <div class="filters_head">Подсветка</div>
+          <label>
+            <input type="checkbox" name="filter_lighting" value="RGB">RGB
+          </label>
+          <label>
+            <input type="checkbox" name="filter_lighting" value="White">White
+          </label>
+        </div>
+          
+        <div class="filters_card">
+          <div class="filters_head">Производитель</div>
+          <label>
+            <input type="checkbox" name="filter_manufacturer" value="A4Tech">A4Tech
+          </label>
+          <label>
+            <input type="checkbox" name="filter_manufacturer" value="Aceline">Aceline
+          </label>
+          <label>
+            <input type="checkbox" name="filter_manufacturer" value="Apple">Apple
+          </label>
+          <label>
+            <input type="checkbox" name="filter_manufacturer" value="Logitech">Logitech
+          </label>
+          <label>
+            <input type="checkbox" name="filter_manufacturer" value="Razer">Razer
+          </label>
+          <label>
+            <input type="checkbox" name="filter_manufacturer" value="Xiaomi">Xiaomi
+          </label>
+        </div>
+      
+      </div>
+
+      <div class="filters_buttons">
+        <input type="button" name="bApply" value="Показать" id="bfil">
+        <input type="reset" name="bReset" value="Сброс">
+      </div>
+
+    </form>
+    <!-- <input type="button" name="bSort" value="Sort"> -->
+    <!-- Контент -->
+    <div class="content"></div>
+    
+    <script src="script.js?v=1"></script>
+  </body>
+  </html>

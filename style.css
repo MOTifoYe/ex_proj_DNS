@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #f6f6f6;
+    color: #333;
+    font-family: PT Sans,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    /* line-height: 1.42857; */
+    min-height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.fff {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+.card {
+    width: 650pt;
+    border-radius: 10pt;
+    padding: 10pt;
+    margin: 10pt auto;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 16%)
+}
+
+.content{
+    margin-top: 70pt;
+}
+
+.form_filter{
+    display: block;
+    position: fixed;
+    width: 100%;
+}
+
+.filters_content{
+    background-color: #fff0e0;
+    padding: 5pt;
+}
+
+.filters_card{
+    background-color: #fff;
+    border-radius: 10pt;
+
+    display: inline-block;
+    padding: 10pt;
+}
+
+.filters_buttons{
+    background-color: #ffdc7d;
+    border-bottom-right-radius: 6pt;
+    
+    display: block;
+    position: fixed;
+    
+    padding: 5pt;
+}
