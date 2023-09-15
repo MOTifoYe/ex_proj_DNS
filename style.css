@@ -3,8 +3,8 @@
 }
 
 body, html {
-    background-color: #f6f6f6;
-    color: #333;
+    background-color: #202024;
+    color: #cecece;
     font-family: PT Sans,Helvetica,Arial,sans-serif;
     font-size: 16px;
     /* line-height: 1.42857; */
@@ -25,7 +25,7 @@ body, html {
     border-radius: 10pt;
     padding: 10pt;
     margin: 10pt auto;
-    background-color: #fff;
+    background-color: #333333;
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 16%)
 }
 
@@ -40,12 +40,12 @@ body, html {
 }
 
 .filters_content{
-    background-color: #fff0e0;
+    background-color: #242428;
     padding: 5pt;
 }
 
 .filters_card{
-    background-color: #fff;
+    background-color: #2a2a30;
     border-radius: 10pt;
 
     display: inline-block;
